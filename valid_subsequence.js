@@ -17,7 +17,6 @@ function isValidSubsequence(array, sequence) {
         }
         return sequenceN===seqIdx;
     }
-    // Do not edit the line below.
     exports.isValidSubsequence = isValidSubsequence;
     
     const array=[5,1,22,25,6,-1,8,10];
