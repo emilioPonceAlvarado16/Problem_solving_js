@@ -2,6 +2,7 @@
  * Competition array represents 1vs1 competition using a programming language, 
  * and the results array represents the result of that competition, the index of the results array 
  * is the same for the competition array.
+ * if result[i]==0 means that the first team lose else means that the second team lose and the other team wins.
  * 
  * Returns the programming language which has more winning frequency
  * 
