@@ -1,5 +1,6 @@
 /**
  * Find two numbers inside the array as input, in order that the sum is equals to targetSum
+ * O(n) time | O(n) space -where n is the length of the array.
  * 
  * @param {array} array 
  * @param {number} targetSum 
