@@ -1,6 +1,8 @@
 
 /**
  *  Verify if an array is the subsequence of another.
+ *  O(n) time | O(1) space -where n is the length of the array.
+
  * @param {array} array 
  * @param {array} sequence 
  * @returns {boolean}
