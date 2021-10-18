@@ -1,6 +1,7 @@
 
 /**Return a sorted squared array 
- * 
+ * O(n) time | O(n) space -where n is the length of the array.
+
  * @param {array} array 
  * @returns 
  */
