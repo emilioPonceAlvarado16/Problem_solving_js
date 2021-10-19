@@ -16,20 +16,24 @@ function tournamentWinner(competitions, results) {
       var max=0;
       var output=""
       const len=competitions.length;
-  
+      var home="";
+      var away="";
       for(var i=0;i<len;i++){
+        home=competitions[i][0];
+        away=competitions[i][1];
           if(results[i]==1){
-              register[competitions[i][0]]=register[competitions[i][0]] ? register[competitions[i][0]] + 1 : 1;
-              if(register[competitions[i][0]]>=max){
-                  max=register[competitions[i][0]];
-                  output=competitions[i][0];
+             
+              register[home]=register[home] ? register[home] + 1 : 1;
+              if(register[home]>=max){
+                  max=register[home];
+                  output=home;
               }
           }
           else{
-                          register[competitions[i][1]]=register[competitions[i][1]] ? register[competitions[i][1]] + 1 : 1;
-                  if(register[competitions[i][1]]>=max){
-                          max=register[competitions[i][1]];
-                  output=competitions[i][1];
+                          register[away]=register[away] ? register[away] + 1 : 1;
+                  if(register[away]>=max){
+                          max=register[away];
+                  output=away;
               }
           }
       
