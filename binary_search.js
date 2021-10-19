@@ -1,3 +1,7 @@
+
+/**
+ Time: O(log(n)) Space O(log(n))
+
 /**
  * Call the binarySearchHelper method and find the index of the target number
  * by using the binary search.
